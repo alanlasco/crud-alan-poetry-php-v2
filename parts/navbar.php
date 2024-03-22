@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
+<?php
+    require 'login-checker.php';
+?>
+
+
+
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -36,11 +33,11 @@
           <a class="nav-link disabled">Disabled</a>
         </li>
       </ul>
-
-        <button class="btn btn-danger">Log Out</button>
+        <form action="parts/logout.php" method="post">
+        <button class="btn btn-danger" type="submit">Log Out</button>
+</form>
+        
     </div>
   </div>
 </nav>
     
-</body>
-</html>
