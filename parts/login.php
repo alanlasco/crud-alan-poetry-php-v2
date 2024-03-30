@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require './config/config.php';
+require '../config/config.php';
 
 $usuario = "";
 $pass = "";
@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./css/login.css">
+     <link rel="stylesheet" href="../css/login.css">
     <title>Log in</title>
 </head>
 <body>
