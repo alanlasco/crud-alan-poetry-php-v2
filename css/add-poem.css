@@ -1,0 +1,35 @@
+.form-container {
+  padding-top: 5em;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+.heading {
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+  gap: 1.5rem;
+}
+.text-area {
+  display: flex;
+  align-items: center;
+}
+.poem-name {
+  padding-right: 2rem;
+}
+.input-number {
+  max-width: 4rem;
+  max-height: 2rem;
+}
+
+.submit-btn {
+  width: 100%;
+}
