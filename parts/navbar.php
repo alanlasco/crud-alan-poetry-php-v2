@@ -23,7 +23,7 @@
           <a class="nav-link" href="#">Editar Poema</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Borrar Poema</a>
+          <a class="nav-link" href="delete-poem.php">Borrar Poema</a>
         </li>
       </ul>
         <form action="parts/logout.php" method="post">

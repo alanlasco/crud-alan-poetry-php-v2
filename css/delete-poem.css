@@ -1,0 +1,10 @@
+.eliminar {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  margin-right: 1rem;
+}
+.label-delete {
+  padding-right: 1rem;
+}

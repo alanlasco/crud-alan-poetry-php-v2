@@ -35,6 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo $error;
         ?></h1>
         <span style="text-align: center">Volver al form</span>
-        <a href="../index.php">prueba</a>
+        <a href="index.php">prueba</a>
     </body>
     </html>
